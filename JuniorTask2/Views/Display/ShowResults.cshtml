@@ -1,0 +1,33 @@
+﻿@model bool
+@{
+    ViewData["Title"] = "Результаты";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Результаты</title>
+</head>
+<body>
+    <div class="card" style="padding: 20px; background-color:black">
+        <h1 class="fs-1">Результат:</h1>
+        <br />
+        <div class="text-center">
+            @if (@Model)
+            {
+                <h2 class="fs-6" style="color:green">Палиндром</h2>
+            }
+            else
+            {
+                <h2 class="fs-6" style="color:red">Не палиндром</h2>
+            }
+        </div>
+    </div>
+    <div class="text-center" style="margin:20px; padding:5px">
+        <a class="btn btn-success" asp-controller="Display" asp-action="InputValues">Ввести текст заново</a>
+        <a class="btn btn-info" asp-controller="Home" asp-action="Index">Показать условие задачи</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EClLfbLDvt7i1L6fQwh6c+ouHbXe5hYG3+sLocfFy1tfLbaqUK0EnHlOU/NR2QMFTjmJ37/1C/2afv1ubr9q3w==",
+  "success": true,
+  "projectFilePath": "D:\\Labs\\Work\\JuniorTask2\\JuniorTask2\\JuniorTask2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dmitry\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
